@@ -1,0 +1,53 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+  background-color: #a057ef;
+  color: white;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+.game {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.cell {
+  width: 80px;
+  height: 80px;
+  font-family: "Perman?ent Marker", cursive;
+  font-size: 3rem;
+  color: #d467fb;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn {
+  outline: none;
+  border-radius: 5px;
+  border: 0;
+  padding: 0.5rem;
+  cursor: pointer;
+}
